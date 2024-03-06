@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Le Jeu Du Pendu</title>
+</head>
+
+<body>
+    <div id="hangman">Le Jeu du Pendu</div>
+    <div id="word"></div>
+    <div id="messageContainer">
+        <img src="" alt="" id="hangmanImg">
+        <div id="error" class="hidden">Vous avez déjà proposé cette lettre !</div>
+        <div id="gameWin" class="hidden">
+            <p></p>
+            <button id="buttonStart" onclick="startGame()">Rejouer</button>
+        </div>
+    </div>
+    <div id="letters"></div>
+    <script src="./css/main.js"></script>
+</body>
+
+</html>
